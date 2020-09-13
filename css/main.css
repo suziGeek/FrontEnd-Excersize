@@ -348,6 +348,13 @@ textarea {
   background-color: hsl(220, 16%, 96%);
 }
 
+.third-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
 .red {
   border: medium dashed green;
 }
