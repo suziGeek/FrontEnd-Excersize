@@ -322,6 +322,7 @@ textarea {
   top: -45%;
   left: 10%;
   transform: scale(0.8);
+  z-index: 1000;
 }
 .page-footer {
   background-color: #1c2331;
@@ -339,7 +340,12 @@ textarea {
 
 .next-gen-btn {
   margin-top: 20px;
-  justify-content: flex-start;
+}
+
+.sec-sec {
+  position: relative;
+  z-index: -1;
+  background-color: hsl(220, 16%, 96%);
 }
 
 .red {
