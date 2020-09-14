@@ -299,6 +299,8 @@ textarea {
 }
 .row {
   height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .bod-col-one {
@@ -394,9 +396,9 @@ textarea {
   border: medium dashed green;
 }
 
-/* MEDIA QUERIES */
+/******* MEDIA QUERIES *********************************/
 
-@media (min-width: 375pxpx) {
+@media (max-width: 767px) {
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -430,9 +432,9 @@ textarea {
     height: 80vh;
   }
   .row {
+    height: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    /* height: 100%; */
+    flex-direction: column;
   }
 
   .bod-col-one {
@@ -457,9 +459,9 @@ textarea {
 
   .bod-col-two img {
     position: absolute;
-    top: -45%;
+    top: -150%;
     left: 10%;
-    transform: scale(0.8);
+    transform: scale(0.5);
     z-index: 1000;
     overflow: hidden;
   }
@@ -489,7 +491,7 @@ textarea {
 
   .third-sec {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
   }
@@ -497,8 +499,9 @@ textarea {
   .fourth-sec {
     background-color: hsl(0, 0%, 98%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
   }
 
@@ -506,10 +509,13 @@ textarea {
     font-size: 15px;
     color: hsl(233, 8%, 62%);
   }
+  .card {
+    margin: 10px;
+  }
 
   .page-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
   }
 
