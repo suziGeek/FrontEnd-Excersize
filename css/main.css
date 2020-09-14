@@ -451,7 +451,7 @@ textarea {
     flex-grow: 1;
     background-image: url(../images/bg-intro-desktop.svg);
 
-    background-position: 5% 50%;
+    background-position: 0% 70%;
     /* z-index: -1; */
     transform: scale(1);
     /* background-position: right 35% bottom 45%; */
@@ -459,8 +459,8 @@ textarea {
 
   .bod-col-two img {
     position: absolute;
-    top: -150%;
-    left: 10%;
+    top: -175%;
+    left: -25%;
     transform: scale(0.5);
     z-index: 1000;
     overflow: hidden;
@@ -484,7 +484,7 @@ textarea {
   }
 
   .sec-sec {
-    position: relative;
+    /* position: relative; */
     z-index: -1;
     background-color: hsl(220, 16%, 96%);
   }
